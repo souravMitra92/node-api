@@ -7,4 +7,4 @@ var EmployeeSchema   = new Schema({
     employee_id: String
 });
 
-module.exports = mongoose.model('employee', EmployeeSchema);
+module.exports = mongoose.model('Employee', EmployeeSchema, 'employees');
